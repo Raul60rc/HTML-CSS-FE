@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register Form</title>
-  </head>
-  <body>
-    <h1>Register Form</h1>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register Form</title>
+</head>
+
+<body>
+  <h1>Register Form</h1>
+  <br />
+  <form action="">
+    <label for="name">Name:</label>
+    <input type="text" /><br>
     <br />
-    <form action="">
-      <label for="name">Name:</label>
-      <input type="text" /><br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" /><br>
+    <br />
+    <label for="gender">Gender:</label>
+    <label for="male">Male</label>
+    <input type="radio" name="Male" id="male" />
+    <label for="female">Female</label>
+    <input type="radio" name="female" id="" /><br>
+    <br />
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email" /><br>
+    <br />
+    <label for="City">City</label>
+    <select name="City" id="City">
+      <option value="Madrid">Madrid</option>
+      <option value="Barcelona">Barcelona</option>
+      <option value="Bilbao">Bilbao</option>
+      <option value="Sevilla">Sevilla</option>
+    </select><br>
+    <br />
+    <label for="description">description:</label>
+    <input type="text" name="description" id="description" rows="4" cols="50"><br>
+    <br>
+    <br />
+      <label for="promotional">I wish to recieve promotional emails</label>
+      <input type="checkbox" name="promotional" id="promotional" />
       <br />
-      <label for="lastName">Last Name:</label>
-      <input type="text" /><br>
+      <label for="termsConditions"
+        >I declare I have read the terms & conditions</label
+      >
+      <input type="checkbox" name="termsConditions" id="termsConditions" />
       <br />
-      <label for="gender">Gender:</label>
-      <label for="male">Male</label>
-      <input type="radio" name="Male" id="male" />
-      <label for="female">Female</label>
-      <input type="radio" name="female" id="" /><br>
-      <br />
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" /><br>
-      <br />
-      <label for="City">City</label>
-      <select name="City" id="City">
-        <option value="Madrid">Madrid</option>
-        <option value="Barcelona">Barcelona</option>
-        <option value="Bilbao">Bilbao</option>
-        <option value="Sevilla">Sevilla</option>
-      </select><br>
-      <br />
-      <label for="description">description:</label>
-      <input type="text" name="description" id="description"><br>
-      <br>
-    </form>
-  </body>
+     <button type="submit">Submit</button>
+  </form>
+</body>
+
 </html>
