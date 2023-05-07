@@ -1,0 +1,117 @@
+Pseudocode Activities
+
+4. Start 
+variable base
+variable altitude
+
+Algorithm 
+hypotenuse = (base)2 + (altitude)2
+
+Result Hypotenuse
+End of Algorithm 
+
+5. Start
+variable number = INPUT(number)
+
+algorithm 
+
+
+6.Start 
+
+
+7.Start
+algorithm
+function evenOrNot(n){
+loop i<n 
+if n % === 0
+return all even numbers
+}
+evenOrNot(write the N number)
+end of algorithm
+
+8. Start
+
+
+9. Start
+Variable hours
+
+variable minutes
+variable seconds
+
+Algorithm
+
+
+11.Start 
+
+Variable leapYear
+
+algorithm leapYear
+if leapYear % 100 === 0
+return "not a leap year"
+if else leapYear %400 === 0
+return "is a leap year"
+
+leapYear(INPUT YEAR)
+
+End of algorithm 
+
+12. Start
+variable cash
+variable visa
+
+Algortihm register
+if purchase by cash
+return "open register box"
+if else purchase by visa
+return "pay by dataphone"
+
+end of algorithm 
+
+13. 
+
+14. 
+variable A = INPUT
+variable B = INPUT
+variable operator = INPUT +*/-
+
+Algorithm (A,B)
+if operator === * 
+return a*b
+if else operator === - 
+return a-b
+if else operator === +
+return a+b
+if else operator === /
+return a/b
+
+End of Algortihm 
+
+15. Start 
+variable a 
+variable b 
+
+Algortim greaterThan 
+if a > b 
+return "a is greater than b"
+if else a == b 
+return " a & b are equal"
+if else b>a 
+return "b is greater than a"
+
+end of algortihm 
+
+16. start 
+variable a 
+variable b 
+variable c
+
+algortithm greaterThan
+
+
+
+17. Start
+que significa el producto? 
+
+18. 
+
+
